@@ -209,9 +209,9 @@ function downloadHTML() {
              </div>`;
 
     // --- Intro ---
-    // html += `<h2>${isEn ? resumeData.about.title.en : resumeData.about.title.zh}</h2>`;
-    // const introText = isEn ? resumeData.about.content.en : resumeData.about.content.zh;
-    // introText.forEach(text => html += `<p>${text}</p>`);
+    html += `<h2>${isEn ? resumeData.about.title.en : resumeData.about.title.zh}</h2>`;
+    const introText = isEn ? resumeData.about.content.en : resumeData.about.content.zh;
+    introText.forEach(text => html += `<p>${text}</p>`);
 
     // --- Skills ---
     html += `<h2>${isEn ? resumeData.skills.title.en : resumeData.skills.title.zh}</h2><ul>`;
