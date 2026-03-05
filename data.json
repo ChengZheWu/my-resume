@@ -19,10 +19,10 @@
     "title": { "zh": "個人簡介", "en": "Introduction" },
     "content": {
       "zh": [
-        "具備 3 年以上 SSD 韌體開發經驗，專精於 PCIe 與 NVMe 協定及軟硬體整合。於 Gap Year 期間深耕 DevOps 與雲端原生技術，包含 Docker、K8s、Terraform 及 CI/CD 自動化流程，成功建構多項實務專案以優化開發工作流。憑藉深厚的底層邏輯與自主學習能力，目標轉職為軟體工程師，致力於利用系統級開發經驗與現代軟體架構技術，為團隊建構高效且穩定的系統。"
+        "具備 3 年以上 SSD 韌體開發經驗，專精於 PCIe 與 NVMe 協定及軟硬體整合 。於 Gap Year 期間深耕 DevOps 與雲端原生技術，包含 Docker、K8s、Terraform 及 CI/CD 自動化流程，目前積極準備並預計於 2026 年上半年取得 CKA (Certified Kubernetes Administrator) 證照，並已成功建構多項實務專案以優化開發工作流 。憑藉深厚的底層邏輯與自主學習能力，目標轉職為軟體工程師，致力於利用系統級開發經驗與現代軟體架構技術，為團隊建構高效且穩定的系統 。。"
       ],
       "en": [
-        "With over 3 years of experience in SSD firmware development, I specialize in PCIe and NVMe protocols as well as hardware-software integration. During my gap year, I have pivoted into DevOps and cloud-native technologies, including Docker, Kubernetes, Terraform, and CI/CD pipelines, successfully building practical projects to optimize development workflows. Leveraging a strong foundation in low-level logic and a proven capacity for self-directed learning, I am seeking to transition into a Software Engineer role, dedicated to building efficient and stable systems by combining my system-level expertise with modern software architecture."
+        "With over 3 years of experience in SSD firmware development , I specialize in PCIe and NVMe protocols as well as hardware-software integration. During my gap year, I have pivoted into DevOps and cloud-native technologies, including Docker, Kubernetes (K8s), Terraform, and CI/CD automation pipelines. I am currently preparing for and expect to obtain the CKA (Certified Kubernetes Administrator) certification in the first half of 2026. Having successfully built multiple practical projects to optimize development workflows, I leverage my strong low-level logic and self-driven learning capabilities to transition into a Software Engineer role. My goal is to utilize my system-level development experience and modern software architecture skills to build efficient and stable systems for the team."
       ]
     }
   },
