@@ -12,19 +12,18 @@
     "email": "luckyandy234@gmail.com",
     "social": {
       "linkedin": "https://linkedin.com/in/chengzhewu",
-      "github": "https://github.com/ChengZheWu"
+      "github": "https://github.com/ChengZheWu",
+      "Website": "https://tripleonezero.com/"
     }
   },
   "about": {
     "title": { "zh": "個人簡介", "en": "Introduction" },
     "content": {
       "zh": [
-        "我是一名熱愛學習新技術的工程師，研究所時期以研究AI影像處理為主，而在過去的工作中從事SSD控制晶片韌體開發，主要解決PCIe跟NVMe相關的host端問題，並熟悉軟硬體整合。",
-        "目前想轉職為一名軟體工程師，在一年的gap year中，除了練習LeetCode之外，我自主學習了 DevOps 技術與自動化流程，像是 Docker、K8s、Terraform 以及 CI/CD 流程等等，並且學以致用了幾個實用的專案，不僅可以幫助自己解決自身需求，還能夠精進自己的技術。"
+        "具備 3 年以上 SSD 控制晶片韌體開發經驗，專精於 ARM 架構系統與高速介面協議（PCIe/NVMe）。曾主導首款 Gen5 SSD 韌體架構開發，擅長處理軟硬體整合中的關鍵問題，包括系統啟動流程（Initialization flow）與效能優化。具備深厚的 C/C++ 基礎與底層除錯經驗，能利用邏輯分析儀與 Protocol Analyzer 解決複雜的跨平台相容性與系統穩定性問題。目前正尋求韌體及嵌入式軟韌體開發職位，將過去在高效能儲存領域的嚴謹開發邏輯，應用於多元的硬體產品開發中。"
       ],
       "en": [
-        "I am an engineer who is passionate about learning new technologies. During my graduate studies, my research focused on AI image processing. In my previous role, I worked on SSD controller firmware development, primarily handling host-side issues related to PCIe and NVMe, and I am familiar with hardware-software integration.",
-        "Currently, I am looking to transition into a career as a software engineer. During my one-year gap year, in addition to practicing LeetCode, I have self-studied DevOps technologies and automation workflows, such as Docker, K8s, Terraform, and CI/CD processes. I have also applied what I’ve learned to several practical projects, which not only help solve my own needs but also allow me to refine my technical skills."
+        "With over 3 years of experience in SSD controller firmware development, I specialize in ARM-based architectures and high-speed interface protocols, specifically PCIe and NVMe. I have led the firmware architecture development for an inaugural Gen5 SSD, demonstrating expertise in resolving critical hardware-software integration challenges, including system initialization flows and performance optimization. I possess a strong foundation in C/C++ and extensive experience in low-level debugging, utilizing Logic Analyzers and Protocol Analyzers to resolve complex cross-platform compatibility and system stability issues. I am currently seeking a role in firmware or embedded software development, aiming to apply the rigorous development logic gained from the high-performance storage industry to diverse hardware product development."
       ]
     }
   },
@@ -45,7 +44,7 @@
               ]
             },
             "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
-            "透過 log analysis、code tracing、使用 UEFI scripts 做 SoC verification、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
+            "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
             "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
             "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
           ],
@@ -59,7 +58,7 @@
               ]
             },
             "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs, specializing in interrupt handling, memory management, power management, and DMA.",
-            "Performed full-stack firmware debugging through log analysis, code tracing, SoC verification using UEFI scripts, logic analyzers, GPIO, and UART.",
+            "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, GPIO, and UART techniques.",
             "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
             "Collaborated cross-functionally and delivered on-site technical support at client locations."
           ]
@@ -112,33 +111,41 @@
     "categories": [
       {
         "title": { "zh": "程式語言", "en": "Programming Languages" },
-        "tags": ["Python", "C++", "C", "Bash/Shell Scripting", "SQL", "MATLAB"]
+        "tags": ["C", "C++", "Python", "Shell Scripting", "SQL", "MATLAB"]
       },
       {
-        "title": { "zh": "雲端與 DevOps", "en": "Cloud, DevOps & Automation" },
-        "tags": ["Docker", "Kubernetes (K8s)", "AWS", "GCP", "Terraform", "GitHub Actions", "CI/CD", "n8n"]
-      },
-      {
-        "title": { "zh": "Web 框架與其他軟體技能", "en": "Web Frameworks & Other skills" },
-        "tags": ["Flask", "FastAPI", "RESTful API integration", "Web Crawlers (Selenium, Requests, BeautifulSoup)", "Git"]
-      },
-      {
-        "title": { "zh": "AI", "en": "AI" },
-        "tags": ["PyTorch", "Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
+        "title": { "zh": "韌體開發與除錯", "en": "Firmware development & dubugging" },
+        "tags": ["PCIe", "NVMe", "ARM Architecture", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "GPIO", "UART", "Memory Management", "DMA", "Power Management", "Interrupt Handling (ISR)"]
       },
       {
         "title": { "zh": "Linux Kernel & 嵌入式系統", "en": "Linux Kernel & Embedded System" },
         "tags": ["FUSE", "POSIX API", "Raspberry Pi", "Arduino", "8051"]
       },
       {
-        "title": { "zh": "韌體開發與除錯 & SSD", "en": "Firmware development & dubugging & SSD" },
-        "tags": ["FTL Alogrithm", "PCIe", "NVMe", "ARM Architecture", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "GPIO", "UART", "Memory Management", "DMA", "Power Management", "Interrupt Handling (ISR)"]
+        "title": { "zh": "雲端與 DevOps", "en": "Cloud & DevOps" },
+        "tags": ["Docker", "Kubernetes (K8s)", "AWS", "GCP", "Terraform", "GitHub Actions", "CI/CD", "n8n"]
+      },
+      {
+        "title": { "zh": "Web 框架與其他軟體技能", "en": "Web Frameworks & Other skills" },
+        "tags": ["Git", "Flask", "FastAPI", "RESTful API integration", "Web Crawlers (Selenium, Requests, BeautifulSoup)"]
+      },
+      {
+        "title": { "zh": "AI", "en": "AI" },
+        "tags": ["PyTorch", "Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
       }
     ]
   },
   "projects": {
     "title": { "zh": "專案", "en": "Projects" },
     "items": [
+      {
+        "title": { "zh": "FUSE 使用者空間檔案系統實作", "en": "FUSE-based User-Space File System Implementation" },
+        "desc": {
+          "zh": "使用 C++17 模擬經典 Unix 架構（類 EXT2）設計了一個持久性檔案系統。利用 Superblock、Inode Tables 和 Bitmap 分配進行高效的中繼資料管理。使用 std::mutex 和 Monitor Pattern 強制執行執行緒安全，消除競爭條件。",
+          "en": "Engineered a persistent file system in C++17 simulating classic Unix architecture (EXT2-like). Enforced thread safety for concurrent operations using std::mutex, effectively eliminating race conditions during resource allocation."
+        },
+        "stack": "Tech Stack: C++17, C, Bash, FUSE (libfuse3), POSIX API"
+      },
       {
         "title": { "zh": "履歷網站", "en": "Resume Website" },
         "desc": {
@@ -162,14 +169,6 @@
           "en": "Built a stable LINE Bot using Docker, Render, and UptimeRobot that integrates Google Maps API to automate the discovery of drinking venues and host random drinking games."
         },
         "stack": "Tech Stack: Python, Flask, Webhook, Google Maps API, Docker, Render"
-      },
-      {
-        "title": { "zh": "FUSE 使用者空間檔案系統實作", "en": "FUSE-based User-Space File System Implementation" },
-        "desc": {
-          "zh": "使用 C++17 模擬經典 Unix 架構（類 EXT2）設計了一個持久性檔案系統。利用 Superblock、Inode Tables 和 Bitmap 分配進行高效的中繼資料管理。使用 std::mutex 和 Monitor Pattern 強制執行執行緒安全，消除競爭條件。",
-          "en": "Engineered a persistent file system in C++17 simulating classic Unix architecture (EXT2-like). Enforced thread safety for concurrent operations using std::mutex, effectively eliminating race conditions during resource allocation."
-        },
-        "stack": "Tech Stack: C++17, C, Bash, FUSE (libfuse3), POSIX API"
       }
     ]
   }
