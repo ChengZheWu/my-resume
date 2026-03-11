@@ -19,10 +19,12 @@
     "title": { "zh": "個人簡介", "en": "Introduction" },
     "content": {
       "zh": [
-        "具備 3 年以上 SSD 韌體開發經驗，專精於 PCIe 與 NVMe 協定及軟硬體整合 。於 Gap Year 期間深耕 DevOps 與雲端原生技術，包含 Docker、K8s、Terraform 及 CI/CD 自動化流程，目前積極準備並預計於 2026 年上半年取得 CKA (Certified Kubernetes Administrator) 證照，並已成功建構多項實務專案以優化開發工作流 。憑藉深厚的底層邏輯與自主學習能力，目標轉職為軟體工程師，致力於利用系統級開發經驗與現代軟體架構技術，為團隊建構高效且穩定的系統 。"
+        "我是一名熱愛學習新技術的工程師，研究所時期以研究AI影像處理為主，而在過去的工作中從事SSD控制晶片韌體開發，主要解決PCIe跟NVMe相關的host端問題，並熟悉軟硬體整合。",
+        "目前想轉職為一名軟體工程師，在一年的gap year中，除了練習LeetCode之外，我自主學習了 DevOps 技術與自動化流程，像是 Docker、K8s、Terraform 以及 CI/CD 流程等等，並且學以致用了幾個實用的專案，不僅可以幫助自己解決自身需求，還能夠精進自己的技術。"
       ],
       "en": [
-        "With over 3 years of experience in SSD firmware development , I specialize in PCIe and NVMe protocols as well as hardware-software integration. During my gap year, I have pivoted into DevOps and cloud-native technologies, including Docker, Kubernetes (K8s), Terraform, and CI/CD automation pipelines. I am currently preparing for and expect to obtain the CKA (Certified Kubernetes Administrator) certification in the first half of 2026. Having successfully built multiple practical projects to optimize development workflows, I leverage my strong low-level logic and self-driven learning capabilities to transition into a Software Engineer role. My goal is to utilize my system-level development experience and modern software architecture skills to build efficient and stable systems for the team."
+        "I am an engineer who is passionate about learning new technologies. During my graduate studies, my research focused on AI image processing. In my previous role, I worked on SSD controller firmware development, primarily handling host-side issues related to PCIe and NVMe, and I am familiar with hardware-software integration.",
+        "Currently, I am looking to transition into a career as a software engineer. During my one-year gap year, in addition to practicing LeetCode, I have self-studied DevOps technologies and automation workflows, such as Docker, K8s, Terraform, and CI/CD processes. I have also applied what I’ve learned to several practical projects, which not only help solve my own needs but also allow me to refine my technical skills."
       ]
     }
   },
@@ -34,16 +36,32 @@
         "date": "Dec 2021 - Mar 2025",
         "details": {
           "zh": [
-            "開發首款 E31 Gen5 SSD controller，設計高效能 SSD 韌體架構，透過系統級優化與硬體整合，確保 Gen5 高速環境下的系統穩定性與吞吐量。",
-            "根據需求開發高度客製化功能，具備處理複雜系統間溝通 (Host-to-Device) 與解決跨平台相容性問題的經驗。",
-            "執行系統引導序列優化，將啟動與重置延遲最小化，顯著提升系統初始化效率與資源管理效能。",
-            "熟練運用 Log 分析、Code Tracing 與撰寫 UEFI Scripts 進行自動化 SoC 驗證與深度排錯（Deep Debugging），具備從複雜系統數據中提取關鍵資訊以驗證系統可靠性的能力。"
+            {
+              "main": "開發首款 SSD E31 PCIe/NVMe Gen5 SSD 韌體架構。",
+              "sub": [
+                "開發 E31 Gen5 SSD controller 的 PCIe initialization flow，處理軟硬整合使 link 可以達到 Gen5 並且維持穩定。",
+                "基於客戶需求，設計與實作客製化的 host 端 firmware features。",
+                "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
+              ]
+            },
+            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
+            "透過 log analysis、code tracing、使用 UEFI scripts 做 SoC verification、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
+            "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
+            "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
           ],
           "en": [
-            "Developed the first E31 Gen5 SSD controller. Architected high-performance SSD firmware, ensuring system stability and throughput in Gen5 environments through low-level hardware-software integration.",
-            "Developed customized features to bridge complex host-device communications, resolving cross-platform compatibility issues in large-scale environments.",
-            "Optimized system boot sequences to minimize power-on and reset latencies, significantly improving system initialization efficiency and resource orchestration.",
-            "Leveraged log analysis, code tracing, and custom UEFI scripts to automate SoC verification and conduct deep-dive troubleshooting, ensuring high system reliability through data-driven diagnostic techniques."
+            {
+              "main": "Developed the first SSD E31 PCIe/NVMe Gen5 SSD Firmware Architecture.",
+              "sub": [
+                "Developed the PCIe initialization flow for the E31 Gen5 SSD controller, ensuring seamless hardware-software integration and achieving stable Gen5 link performance.",
+                "Designed and implemented customized host-side firmware features based on customer requirements.",
+                "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
+              ]
+            },
+            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs, specializing in interrupt handling, memory management, power management, and DMA.",
+            "Performed full-stack firmware debugging through log analysis, code tracing, SoC verification using UEFI scripts, logic analyzers, GPIO, and UART.",
+            "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
+            "Collaborated cross-functionally and delivered on-site technical support at client locations."
           ]
         }
       }
@@ -122,26 +140,26 @@
     "title": { "zh": "專案", "en": "Projects" },
     "items": [
       {
-        "title": { "zh": "雲端原生資料驅動履歷系統", "en": "Cloud-Native Data-Driven Resume System" },
+        "title": { "zh": "履歷網站", "en": "Resume Website" },
         "desc": {
-          "zh": "本專案是一個展現 Infrastructure as Code (IaC) 與 GitOps 流程的雲原生應用，使用 Terraform 在 Hetzner Cloud 上自動化部署 K3s 叢集，並透過 GitHub Actions 建立完整的 CI/CD 流水線，實現從程式碼推送、Docker 鏡像構建到 Kubernetes 遠端滾動更新的全自動化流程。系統採用資料驅動架構，將履歷內容與程式碼解耦，並利用 Traefik Ingress 處理生產級流量路由，充分實踐了現代化開發維運的自動化與標準化思維。",
-          "en": "This project is a cloud-native application demonstrating Infrastructure as Code (IaC) and GitOps workflows, utilizing Terraform to automate K3s cluster deployment on Hetzner Cloud and establishing a full CI/CD pipeline via GitHub Actions. It automates the entire process from code push and Docker image building to Kubernetes remote rolling updates. By adopting a data-driven architecture that decouples content from code and leveraging Traefik Ingress for production-grade routing, the project showcases a commitment to automation and standardization in modern DevOps practices."
+          "zh": "開發一個採用資料驅動架構的履歷網站，先包成 Docker image，再使用 Terraform 與 Kubernetes 部署於 Hetzner Cloud，並透過 GitHub Actions 實現全自動化的 CI/CD 流程。",
+          "en": "Developed a data-driven resume website, packaged it into a Docker image, deployed it to Hetzner Cloud using Terraform and Kubernetes, and implemented a fully automated CI/CD pipeline via GitHub Actions."
         },
         "stack": "Tech Stack: Docker, Terraform, K8s, Hetzner, GitHub Actions, HTML, CSS, JavaScript"
       },
       {
         "title": { "zh": "每日 AI 自動化財經新聞電子報", "en": "Daily AI-Automated Financial News Newsletter" },
         "desc": {
-          "zh": "本專案建構了一個全自動化的雲原生財經資訊系統，利用 Docker 將爬蟲、Gemini AI 分析與 Azure TTS 語音合成組件容器化，並部署於 AWS Fargate Serverless 架構以實現高彈性與成本優化。透過 Amazon EventBridge 精準排程與 GitHub Actions 自動化部署，系統每日定時抓取海量數據並產出結構化報告。此外，專案整合了 n8n 自動化工作流進行多平台派送，展現了從資料採集、AI 處理到雲端維運（DevOps）的全棧自動化實作能力。",
-          "en": "This project features a fully automated cloud-native financial intelligence system that containerizes web scrapers, Gemini AI analysis, and Azure TTS synthesis using Docker, deployed on AWS Fargate to achieve serverless scalability and cost efficiency. By leveraging Amazon EventBridge for precision scheduling and GitHub Actions for automated deployment, the system performs daily data ingestion and generates structured market reports. Additionally, it integrates n8n workflows for multi-channel delivery, demonstrating end-to-end DevOps expertise in AI-driven automation and cloud infrastructure management."
+          "zh": "開發全自動化的雲原生系統，利用 Docker 和 AWS 協調網路爬蟲、AI 驅動的新聞摘要和音訊生成，利用 n8n 工作流程透過電子郵件發送最終報告和 Podcast。",
+          "en": "Developed a fully automated cloud-native system utilizing Docker and AWS to orchestrate web scraping, AI-driven financial news summarization, and audio generation, leveraging n8n workflows for delivery via email."
         },
         "stack": "Tech Stack: Python, Selenium, BeautifulSoup, Requests, AWS, Docker, n8n, Google Gemini API, Azure AI Speech API"
       },
       {
         "title": { "zh": "智慧夜生活導航與活動 LINE Bot", "en": "Smart Nightlife Navigator & Event Companion LINE Bot" },
         "desc": {
-          "zh": "本專案開發了一個基於 Webhook 事件驅動架構的智慧社交助手，使用 Python Flask 整合 Line Messaging API 與 Google Maps API，提供動態地理位置搜尋與娛樂互動功能。在 DevOps 實踐上，專案採用 Docker 容器化技術確保開發環境與生產環境的一致性，並部署於 Render PaaS 平台實作輕量化 Serverless 架構。此外，透過 UptimeRobot 實施服務可用性監控，並利用 ngrok 建立本地 Webhook 測試隧道，完整展示了從 API 整合、環境封裝到自動化維運的敏捷開發流程。",
-          "en": "This project developed an intelligent social assistant based on an event-driven Webhook architecture, integrating Python Flask with Line Messaging API and Google Maps API to provide dynamic location-based search and interactive entertainment features. For DevOps practices, the project employs Docker containerization to ensure consistency between development and production environments and is deployed on the Render PaaS platform using a lightweight Serverless architecture. Additionally, the implementation of availability monitoring via UptimeRobot and local Webhook testing via ngrok demonstrates a complete agile development workflow from API integration and environment encapsulation to automated operations."
+          "zh": "使用 Docker、Render 和 UptimeRobot 建立穩定的 LINE Bot，整合 Google Maps API 自動探索飲酒場所並主持隨機飲酒遊戲。",
+          "en": "Built a stable LINE Bot using Docker, Render, and UptimeRobot that integrates Google Maps API to automate the discovery of drinking venues and host random drinking games."
         },
         "stack": "Tech Stack: Python, Flask, Webhook, Google Maps API, Docker, Render"
       },
