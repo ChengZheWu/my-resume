@@ -35,20 +35,32 @@
         "date": "Dec 2021 - Mar 2025",
         "details": {
           "zh": [
-            "開發首款 E31 PCIe/NVMe Gen5 SSD 韌體架構：負責 E31 Gen5 SSD Controller 的 PCIe Initialization Flow，處理軟硬體整合以確保 Link 達到 Gen5 速率並維持穩定性。",
-            "韌體功能設計與優化：基於客戶需求設計客製化 Host 端韌體功能；優化 Low-level System Sequences（如 Power-on 與 Reset Latencies）以滿足 OEM 效能指標。",
-            "ARM-based 系統開發：開發 ARM 架構之 PCIe/NVMe Gen3/4/5 SSD 韌體，熟悉 Interrupt Handling、Memory Management、Power Management 及 DMA 等核心技術。",
-            "SoC 驗證與 Debug 技術：編寫 UEFI/Shell Scripts 進行 SoC 驗證，並熟練運用 Protocol Analyzer (Viavi, LeCroy)、Logic Analyzer、Drivelog Analysis、Code Tracing、GPIO 及 UART 等工具除錯並解決跨平台相容性問題。",
-            "通訊協定開發與 Sideband 除錯：設計並實作 I2C、I3C 與 SMBus 相關功能，包含環境偵測（Thermal Sensor）、電源管理（PMIC）控制，以及符合 NVMe-MI 規範的帶外管理功能。",
-            "跨部門協作與客戶支援：具備豐富的跨部門溝通經驗，並曾出差至客戶端進行 On-site 支援，解決第一線技術難題。"
+            {
+              "main": "開發首款 SSD E31 PCIe/NVMe Gen5 SSD 韌體架構。",
+              "sub": [
+                "開發 E31 Gen5 SSD controller 的 PCIe initialization flow，處理軟硬整合使 link 可以達到 Gen5 並且維持穩定。",
+                "基於客戶需求，設計與實作客製化的 host 端 firmware features。",
+                "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
+              ]
+            },
+            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
+            "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
+            "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
+            "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
           ],
           "en": [
-            "Lead Developer of the First E31 PCIe/NVMe Gen5 SSD Firmware Architecture: Responsible for the PCIe initialization flow of the E31 Gen5 SSD controller; managed hardware-software integration to ensure the link achieved Gen5 speeds with robust stability.",
-            "Firmware Feature Design and Optimization: Developed customized host-side firmware features based on client requirements; optimized low-level system sequences, such as power-on and reset latencies, to meet stringent OEM performance benchmarks.",
-            "ARM-based System Development: Developed firmware for ARM-based PCIe/NVMe Gen3/4/5 SSDs; proficient in core technologies including interrupt handling, memory management, power management, and DMA.",
-            "SoC Verification and Debugging: Authored UEFI/Shell scripts for SoC verification; expert in using Protocol Analyzers (Viavi, LeCroy), Logic Analyzers, drive log analysis, code tracing, GPIO, and UART to troubleshoot and resolve cross-platform compatibility issues.",
-            "Protocol Development and Sideband Debugging: Designed and implemented I2C, I3C, and SMBus functionalities, including thermal sensor monitoring, Power Management IC (PMIC) control, and Out-of-Band (OOB) management compliant with NVMe-MI specifications.",
-            "Cross-functional Collaboration and Field Support: Experienced in cross-departmental coordination and providing on-site technical support at client locations to resolve critical issues."
+            {
+              "main": "Developed the first SSD E31 PCIe/NVMe Gen5 SSD Firmware Architecture.",
+              "sub": [
+                "Developed the PCIe initialization flow for the E31 Gen5 SSD controller, ensuring seamless hardware-software integration and achieving stable Gen5 link performance.",
+                "Designed and implemented customized host-side firmware features based on customer requirements.",
+                "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
+              ]
+            },
+            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs, specializing in interrupt handling, memory management, power management, and DMA.",
+            "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, GPIO, and UART techniques.",
+            "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
+            "Collaborated cross-functionally and delivered on-site technical support at client locations."
           ]
         }
       }
