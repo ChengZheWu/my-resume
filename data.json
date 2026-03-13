@@ -20,10 +20,10 @@
     "title": { "zh": "個人簡介", "en": "Introduction" },
     "content": {
       "zh": [
-        "具備 3 年以上 SSD 控制晶片韌體開發經驗，專精於 ARM 架構系統與高速介面協議（PCIe/NVMe）。曾主導首款 Gen5 SSD 韌體架構開發，擅長處理軟硬體整合中的關鍵問題，包括系統啟動流程（Initialization flow）與效能優化。具備深厚的 C/C++ 基礎與底層除錯經驗，能利用邏輯分析儀與 Protocol Analyzer 解決複雜的跨平台相容性與系統穩定性問題。目前正尋求韌體及嵌入式軟韌體開發職位，將過去在高效能儲存領域的嚴謹開發邏輯，應用於多元的硬體產品開發中。"
+        "具備 3 年以上 SSD 控制晶片韌體開發經驗，專精於 ARM 架構系統與高速介面協議（PCIe/NVMe）。曾主導首款 Gen5 SSD 韌體架構開發，擅長處理軟硬體整合中的關鍵問題，包括系統啟動流程（Initialization flow）與效能優化。具備深厚的 C/C++ 基礎與底層除錯經驗，能利用邏輯分析儀與 Protocol Analyzer 解決複雜的相容性問題。於職涯轉銜期間，持續透過 LeetCode 強化演算法邏輯，並自主擴展 DevOps、自動化與 Web 技術，有助於開發內部自動化工具與優化韌體測試流程。 目前尋求韌體及嵌入式軟韌體開發職位，期許發揮高效能儲存領域的嚴謹開發邏輯，並應用多元的技術視野協助團隊優化研發效率。"
       ],
       "en": [
-        "With over 3 years of experience in SSD controller firmware development, I specialize in ARM-based architectures and high-speed interface protocols, specifically PCIe and NVMe. I have led the firmware architecture development for an inaugural Gen5 SSD, demonstrating expertise in resolving critical hardware-software integration challenges, including system initialization flows and performance optimization. I possess a strong foundation in C/C++ and extensive experience in low-level debugging, utilizing Logic Analyzers and Protocol Analyzers to resolve complex cross-platform compatibility and system stability issues. I am currently seeking a role in firmware or embedded software development, aiming to apply the rigorous development logic gained from the high-performance storage industry to diverse hardware product development."
+        "With over 3 years of experience in SSD controller firmware development, I specialize in ARM-based architectures and high-speed interface protocols, specifically PCIe and NVMe. I have led the firmware architecture development for an inaugural Gen5 SSD, demonstrating expertise in resolving critical hardware-software integration challenges, including system initialization flows and performance optimization. I possess a strong foundation in C/C++ and extensive experience in low-level debugging, utilizing Logic Analyzers and Protocol Analyzers to resolve complex compatibility issues. During a career transition, I have consistently sharpened my algorithmic logic via LeetCode and expanded my technical expertise into DevOps, automation, and web technologies, which contributes to developing internal automation tools and optimizing firmware testing workflows. I am currently seeking a role in firmware or embedded software development, aiming to apply the rigorous development logic gained from the high-performance storage industry and leverage a diversified technical perspective to assist the team in optimizing R&D efficiency."
       ]
     }
   },
@@ -35,32 +35,20 @@
         "date": "Dec 2021 - Mar 2025",
         "details": {
           "zh": [
-            {
-              "main": "開發首款 SSD E31 PCIe/NVMe Gen5 SSD 韌體架構。",
-              "sub": [
-                "開發 E31 Gen5 SSD controller 的 PCIe initialization flow，處理軟硬整合使 link 可以達到 Gen5 並且維持穩定。",
-                "基於客戶需求，設計與實作客製化的 host 端 firmware features。",
-                "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
-              ]
-            },
-            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
-            "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
-            "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
-            "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
+            "開發首款 E31 PCIe/NVMe Gen5 SSD 韌體架構：負責 E31 Gen5 SSD Controller 的 PCIe Initialization Flow，處理軟硬體整合以確保 Link 達到 Gen5 速率並維持穩定性。",
+            "韌體功能設計與優化：基於客戶需求設計客製化 Host 端韌體功能；優化 Low-level System Sequences（如 Power-on 與 Reset Latencies）以滿足 OEM 效能指標。",
+            "ARM-based 系統開發：開發 ARM 架構之 PCIe/NVMe Gen3/4/5 SSD 韌體，熟悉 Interrupt Handling、Memory Management、Power Management 及 DMA 等核心技術。",
+            "SoC 驗證與 Debug 技術：編寫 UEFI/Shell Scripts 進行 SoC 驗證，並熟練運用 Protocol Analyzer (Viavi, LeCroy)、Logic Analyzer、Drivelog Analysis、Code Tracing、GPIO 及 UART 等工具除錯並解決跨平台相容性問題。",
+            "通訊協定開發與 Sideband 除錯：設計並實作 I2C、I3C 與 SMBus 相關功能，包含環境偵測（Thermal Sensor）、電源管理（PMIC）控制，以及符合 NVMe-MI 規範的帶外管理功能。",
+            "跨部門協作與客戶支援：具備豐富的跨部門溝通經驗，並曾出差至客戶端進行 On-site 支援，解決第一線技術難題。"
           ],
           "en": [
-            {
-              "main": "Developed the first SSD E31 PCIe/NVMe Gen5 SSD Firmware Architecture.",
-              "sub": [
-                "Developed the PCIe initialization flow for the E31 Gen5 SSD controller, ensuring seamless hardware-software integration and achieving stable Gen5 link performance.",
-                "Designed and implemented customized host-side firmware features based on customer requirements.",
-                "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
-              ]
-            },
-            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs, specializing in interrupt handling, memory management, power management, and DMA.",
-            "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, GPIO, and UART techniques.",
-            "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
-            "Collaborated cross-functionally and delivered on-site technical support at client locations."
+            "Lead Developer of the First E31 PCIe/NVMe Gen5 SSD Firmware Architecture: Responsible for the PCIe initialization flow of the E31 Gen5 SSD controller; managed hardware-software integration to ensure the link achieved Gen5 speeds with robust stability.",
+            "Firmware Feature Design and Optimization: Developed customized host-side firmware features based on client requirements; optimized low-level system sequences, such as power-on and reset latencies, to meet stringent OEM performance benchmarks.",
+            "ARM-based System Development: Developed firmware for ARM-based PCIe/NVMe Gen3/4/5 SSDs; proficient in core technologies including interrupt handling, memory management, power management, and DMA.",
+            "SoC Verification and Debugging: Authored UEFI/Shell scripts for SoC verification; expert in using Protocol Analyzers (Viavi, LeCroy), Logic Analyzers, drive log analysis, code tracing, GPIO, and UART to troubleshoot and resolve cross-platform compatibility issues.",
+            "Protocol Development and Sideband Debugging: Designed and implemented I2C, I3C, and SMBus functionalities, including thermal sensor monitoring, Power Management IC (PMIC) control, and Out-of-Band (OOB) management compliant with NVMe-MI specifications.",
+            "Cross-functional Collaboration and Field Support: Experienced in cross-departmental coordination and providing on-site technical support at client locations to resolve critical issues."
           ]
         }
       }
@@ -115,7 +103,7 @@
       },
       {
         "title": { "zh": "韌體開發與除錯", "en": "Firmware development & dubugging" },
-        "tags": ["PCIe", "NVMe", "ARM Architecture", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "GPIO", "UART", "Memory Management", "DMA", "Power Management", "Interrupt Handling (ISR)"]
+        "tags": ["PCIe", "NVMe", "ARM Architecture", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "GPIO", "UART", "I2C", "I3c", "SMBus", "Memory Management", "DMA", "Power Management", "Interrupt Handling (ISR)"]
       },
       {
         "title": { "zh": "Linux Kernel & 嵌入式系統", "en": "Linux Kernel & Embedded System" },
@@ -141,8 +129,8 @@
       {
         "title": { "zh": "FUSE 使用者空間檔案系統實作", "en": "FUSE-based User-Space File System Implementation" },
         "desc": {
-          "zh": "使用 C++17 模擬經典 Unix 架構（類 EXT2）設計了一個持久性檔案系統。利用 Superblock、Inode Tables 和 Bitmap 分配進行高效的中繼資料管理。使用 std::mutex 和 Monitor Pattern 強制執行執行緒安全，消除競爭條件。",
-          "en": "Engineered a persistent file system in C++17 simulating classic Unix architecture (EXT2-like). Enforced thread safety for concurrent operations using std::mutex, effectively eliminating race conditions during resource allocation."
+          "zh": "這是一個使用 C++17 與 libfuse3 實作的專案，旨在模擬類 Unix 檔案系統的底層運作機制。專案透過 pread/pwrite 在單一映像檔上建立磁碟佈局，包含實作 Superblock、Inode Table 與 Bitmap 資源管理，支援基礎的檔案建立、讀寫、刪除及持久化儲存。開發過程中重點處理了多執行緒環境下的資料一致性保護與 POSIX 錯誤代碼回傳，並透過實作 mkfs 工具完成格式化流程，藉此深化對作業系統檔案系統架構與區塊設備操作的理解。",
+          "en": "This is a project implemented with C++17 and libfuse3 aimed at simulating the underlying mechanisms of a Unix-like file system. By using pread/pwrite to establish a disk layout on a single image file, the project implements Superblock, Inode Table, and Bitmap resource management, supporting basic file creation, read/write, deletion, and persistent storage. The development focused on ensuring data consistency in a multi-threaded environment and handling POSIX error codes, while a custom mkfs tool was developed for the formatting process to deepen the understanding of operating system file system architecture and block device operations."
         },
         "stack": "Tech Stack: C++17, C, Bash, FUSE (libfuse3), POSIX API"
       },
