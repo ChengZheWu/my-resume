@@ -36,7 +36,7 @@
         "details": {
           "zh": [
             {
-              "main": "開發首款 SSD E31 PCIe/NVMe Gen5 SSD 韌體架構。",
+              "main": "開發全球首款 DRAM-less PCIe/NVMe Gen5 SSD — Phison E31 韌體架構。",
               "sub": [
                 "開發 E31 Gen5 SSD controller 的 PCIe initialization flow，處理軟硬整合使 link 可以達到 Gen5 並且維持穩定。",
                 "基於客戶需求，設計與實作客製化的 host 端 firmware features。",
@@ -50,7 +50,7 @@
           ],
           "en": [
             {
-              "main": "Developed the first SSD E31 PCIe/NVMe Gen5 SSD Firmware Architecture.",
+              "main": "Developed the firmware architecture for the world’s first DRAM-less Gen5 NVMe SSD (Phison E31).",
               "sub": [
                 "Developed the PCIe initialization flow for the E31 Gen5 SSD controller, ensuring seamless hardware-software integration and achieving stable Gen5 link performance.",
                 "Designed and implemented customized host-side firmware features based on customer requirements.",
