@@ -114,7 +114,7 @@
         "tags": ["C", "C++", "Python", "Shell Scripting", "SQL", "MATLAB"]
       },
       {
-        "title": { "zh": "韌體開發與除錯", "en": "Firmware development & dubugging" },
+        "title": { "zh": "韌體開發與除錯", "en": "Firmware development & debugging" },
         "tags": ["PCIe", "NVMe", "ARM-based firmware", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "JTAG", "GPIO", "UART", "I2C", "I3c", "SMBus"]
       },
       {
