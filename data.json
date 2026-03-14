@@ -43,9 +43,9 @@
                 "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
               ]
             },
-            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
-            "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、GPIO 以及 UART 等技術來做 firmware debugging。",
+            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs ASIC firmware，並且熟悉 interrupt handling、memory management、power management 以及 DMA 等等技術。",
             "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
+            "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、JTAG、GPIO 以及 UART 等技術來做 firmware debugging。",
             "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
           ],
           "en": [
@@ -57,9 +57,9 @@
                 "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
               ]
             },
-            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs, specializing in interrupt handling, memory management, power management, and DMA.",
-            "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, GPIO, and UART techniques.",
+            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs ASIC, specializing in interrupt handling, memory management, power management, and DMA.",
             "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
+            "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, JTAG, GPIO, and UART techniques.",
             "Collaborated cross-functionally and delivered on-site technical support at client locations."
           ]
         }
@@ -115,7 +115,7 @@
       },
       {
         "title": { "zh": "韌體開發與除錯", "en": "Firmware development & dubugging" },
-        "tags": ["PCIe", "NVMe", "ARM Architecture", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "GPIO", "UART", "I2C", "I3c", "SMBus", "Memory Management", "DMA", "Power Management", "Interrupt Handling (ISR)"]
+        "tags": ["PCIe", "NVMe", "ARM-based firmware", "UEFI script", "Logic Analyzer", "Protocol Analyzers (Viavi, LeCroy)", "Log Analysis", "JTAG", "GPIO", "UART", "I2C", "I3c", "SMBus"]
       },
       {
         "title": { "zh": "Linux Kernel & 嵌入式系統", "en": "Linux Kernel & Embedded System" },
