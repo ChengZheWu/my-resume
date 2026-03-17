@@ -43,7 +43,7 @@
                 "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
               ]
             },
-            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs ASIC firmware，並且熟悉 interrupt handling、memory managemen 以及 power management等等技術。",
+            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs ASIC firmware，並且熟悉 interrupt handling、memory managemen 以及 power management 等等技術。",
             "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
             "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzers、JTAG、GPIO 以及 UART 等技術來做 firmware debugging。",
             "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
