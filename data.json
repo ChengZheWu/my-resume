@@ -136,7 +136,7 @@
     ]
   },
   "projects": {
-    "title": { "zh": "專案", "en": "Projects" },
+    "title": { "zh": "個人專案", "en": "Side Projects" },
     "items": [
       {
         "title": { "zh": "FUSE 使用者空間檔案系統實作", "en": "FUSE-based User-Space File System Implementation" },
