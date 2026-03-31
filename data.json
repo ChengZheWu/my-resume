@@ -115,7 +115,7 @@
       },
       {
         "title": { "zh": "韌體開發與除錯", "en": "Firmware development & debugging" },
-        "tags": ["ARM Cortex-R", "Bare-metal ASIC Firmware", "HAL / LLD Design", "PCIe", "NVMe", "UEFI script", "Protocol Analyzers (Viavi, LeCroy)", "Logic Analyzer", "Drive Log", "JTAG", "Keil", "GPIO", "UART"]
+        "tags": ["ARM Cortex-R", "Bare-metal ASIC Firmware", "Low Level Driver", "HAL Design", "PCIe", "NVMe", "UEFI script", "Protocol Analyzers (Viavi, LeCroy)", "Logic Analyzer", "Drive Log", "JTAG", "Keil", "GPIO", "UART"]
       },
       {
         "title": { "zh": "開發平台 & 嵌入式系統", "en": "Development Platform & Embedded System" },
