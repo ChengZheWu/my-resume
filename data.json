@@ -57,7 +57,7 @@
                 "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
               ]
             },
-            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs ASIC, specializing in register-level programming, interrupt handling, memory management, and power management.",
+            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs ASIC, specializing in register-level programming, interrupt handling, memory management, power management, and DMA.",
             "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
             "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, JTAG, Keil, GPIO, and UART techniques.",
             "Collaborated cross-functionally and delivered on-site technical support at client locations."
