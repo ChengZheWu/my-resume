@@ -20,10 +20,10 @@
     "title": { "zh": "個人簡介", "en": "Introduction" },
     "content": {
       "zh": [
-        "具備 3 年以上 SSD 控制晶片韌體開發經驗，專精於 ARM 架構系統與高速介面協議（PCIe/NVMe）。參與開發首款 Gen5 SSD 韌體架構開發，擅長處理軟硬體整合中的關鍵問題，包括系統啟動流程（Initialization flow）與效能優化。具備深厚的 C/C++ 基礎與底層除錯經驗，能利用邏輯分析儀與 Protocol Analyzer 解決複雜的相容性問題。於職涯轉銜期間，持續透過 LeetCode 強化演算法邏輯，並自主擴展 DevOps、自動化與 Web 技術，有助於開發內部自動化工具與優化韌體測試流程。 目前尋求韌體及嵌入式軟韌體開發職位，期許發揮高效能儲存領域的嚴謹開發邏輯，並應用多元的技術視野協助團隊優化研發效率。"
+        "具備 3 年以上 SoC 韌體開發經驗，專精於 C 語言、ARM 架構及高速介面協議（PCIe）。擅長設計 Low-level Driver、HAL 以及軟硬體整合，具備深厚的底層除錯實力，並能熟練運用 Protocol Analyzer 診斷複雜的鏈路穩定性與系統相容性問題。於職涯轉銜期間，持續透過 LeetCode 強化資料結構與演算法邏輯，並積極運用 AI 技術加速新技能學習與 Side Project 實作。目前尋求韌體及嵌入式開發職位，期許能發揮在高效能即時系統開發中的嚴謹邏輯，結合多元的技術視野協助團隊優化研發效率。"
       ],
       "en": [
-        "With over 3 years of experience in SSD controller firmware development, I specialize in ARM-based architectures and high-speed interface protocols, specifically PCIe and NVMe. I have contributed to the firmware architecture development for the first Gen5 SSD, demonstrating expertise in resolving critical hardware-software integration challenges, including system initialization flows and performance optimization. I possess a strong foundation in C/C++ and extensive experience in low-level debugging, utilizing Logic Analyzers and Protocol Analyzers to resolve complex compatibility issues. During a career transition, I have consistently sharpened my algorithmic logic via LeetCode and expanded my technical expertise into DevOps, automation, and web technologies, which contributes to developing internal automation tools and optimizing firmware testing workflows. I am currently seeking a role in firmware or embedded software development, aiming to apply the rigorous development logic gained from the high-performance storage industry and leverage a diversified technical perspective to assist the team in optimizing R&D efficiency."
+        "With over 3 years of experience in SoC firmware development, I specialize in C programming, ARM architectures, and high-speed interface protocols (PCIe). I am adept at designing Low-level Drivers, HAL, and managing hardware-software integration. I possess robust low-level debugging skills and am proficient in using Protocol Analyzers to diagnose complex link stability and system compatibility issues.During my career transition, I have consistently strengthened my data structures and algorithms logic through LeetCode, while actively leveraging AI technologies to accelerate the learning of new skills and the implementation of side projects. Currently, I am seeking a firmware or embedded development position where I can apply the rigorous logic gained from high-performance real-time system development and my diverse technical perspective to enhance team R&D efficiency."
       ]
     }
   },
@@ -43,8 +43,8 @@
                 "優化 low-level system sequences，例如 power-on and reset latencies 等等，來滿足 OEM 效能需求。"
               ]
             },
-            "開發 ARM-based 的 PCIe/NVMe Gen3/4/5 SSDs firmware，並且熟悉 register-level programming、 interrupt handling、memory management、power management, DMA 等等技術。",
-            "專精於 PCIe and NVMe spec 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題。",
+            "專精於 ARM Cortex-R 架構下的 SSD 韌體開發，具備豐富的 Low-level Driver 與 HAL 設計經驗，包含 Register-level programming、interrupt handling、memory management、power management 及 DMA 。",
+            "專精於 PCIe 和 NVMe 並且使用 Protocol Analyzer (Viavi, LeCroy) 來解決 host 端跨平台的相容性問題以及鏈路問題。",
             "設計 UEFI/Shell scripts 做 SoC verification，並透過 drivelog analysis、code tracing、logic analyzer、JTAG、Keil、GPIO 以及 UART 等技術來做 firmware debugging。",
             "有經驗於跨部門合作以及出差至客戶端 on-site 支援。"
           ],
@@ -57,8 +57,8 @@
                 "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
               ]
             },
-            "Developed ARM-based firmware for PCIe/NVMe Gen3/4/5 SSDs ASIC, specializing in register-level programming, interrupt handling, memory management, power management, and DMA.",
-            "Proficient in PCIe and NVMe specifications and resolved host-side compatibility issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
+            "Specialized in ARM Cortex-R based SSD firmware development with expertise in Low-level Drivers and HAL design, covering register-level programming, interrupt handling, memory management, power management, and DMA optimization.",
+            "Proficient in PCIe and NVMe and resolved host-side compatibility issues and link issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
             "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, JTAG, Keil, GPIO, and UART techniques.",
             "Collaborated cross-functionally and delivered on-site technical support at client locations."
           ]
@@ -111,11 +111,11 @@
     "categories": [
       {
         "title": { "zh": "程式語言", "en": "Programming Languages" },
-        "tags": ["C", "C++", "Python", "Shell Scripting", "SQL", "MATLAB"]
+        "tags": ["C", "C++", "Python", "Shell Scripting", "MATLAB", "SQL"]
       },
       {
         "title": { "zh": "韌體開發與除錯", "en": "Firmware development & debugging" },
-        "tags": ["ARM Cortex-R", "Bare-metal ASIC Firmware", "Low Level Driver", "HAL Design", "PCIe", "NVMe", "UEFI script", "Protocol Analyzers (Viavi, LeCroy)", "Logic Analyzer", "Drive Log", "JTAG", "Keil", "GPIO", "UART"]
+        "tags": ["ARM Cortex-R", "Bare-metal ASIC Firmware", "Low-level Driver", "HAL Design", "PCIe", "NVMe", "UEFI scripting", "Protocol Analyzer (Viavi, LeCroy)", "Logic Analyzer", "Drive Log", "JTAG", "Keil", "GPIO", "UART"]
       },
       {
         "title": { "zh": "開發平台 & 嵌入式系統", "en": "Development Platform & Embedded System" },
@@ -123,16 +123,16 @@
       },
       {
         "title": { "zh": "開發維運與工具", "en": "Development Operations & Tools" },
-        "tags": ["Git", "GitLab", "CI/CD", "GitHub Actions", "n8n", "JIRA"]
+        "tags": ["Git", "GitLab", "CI/CD", "JIRA"]
       },
       {
         "title": { "zh": "AI", "en": "AI" },
-        "tags": ["PyTorch", "Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
+        "tags": ["PyTorch", "Machine Learning", "Deep Learning", "Computer Vision", "NLP", "n8n", "Vibe Coding"]
       },
       {
         "title": { "zh": "其他技能", "en": "Other skills" },
-        "tags": ["Docker", "Kubernetes (K8s)", "AWS", "GCP", "Terraform", "Flask", "FastAPI", "RESTful API integration", "Web Crawlers (Selenium, Requests, BeautifulSoup)"]
-      }    
+        "tags": ["Docker", "GitHub Action", "Kubernetes (K8s)", "Terraform", "AWS", "GCP", "Web Crawlers (Selenium, Requests, BeautifulSoup)"]
+      }
     ]
   },
   "projects": {
@@ -145,6 +145,14 @@
           "en": "This is a project implemented with C++17 and libfuse3 aimed at simulating the underlying mechanisms of a Unix-like file system. By using pread/pwrite to establish a disk layout on a single image file, the project implements Superblock, Inode Table, and Bitmap resource management, supporting basic file creation, read/write, deletion, and persistent storage. The development focused on ensuring data consistency in a multi-threaded environment and handling POSIX error codes, while a custom mkfs tool was developed for the formatting process to deepen the understanding of operating system file system architecture and block device operations."
         },
         "stack": "Tech Stack: C++17, C, Bash, FUSE (libfuse3), POSIX API"
+      },
+      {
+        "title": { "zh": "IoT 定位系統", "en": "IoT Positioning System" },
+        "desc": {
+          "zh": "本專案實作從底層 GPS 數據採集至前端地圖視覺化的完整流程 。透過 Arduino 整合 NEO-6M 模組擷取即時座標，並利用 Python 搭配 Google Cloud Pub/Sub 實現 TLS 加密傳輸以確保資安。後端於 GCE 部署 MySQL 儲存資料，並開發 PHP 介面作為數據交換橋樑，串接 Google Maps API 達成即時點位更新。",
+          "en": "Implemented a complete pipeline from low-level GPS data acquisition to front-end map visualization. Integrated Arduino with the NEO-6M module to capture real-time coordinates, utilizing Python and Google Cloud Pub/Sub to achieve TLS-encrypted transmission for enhanced security. Deployed a MySQL database on GCE for storage and developed a PHP interface as a data exchange bridge, integrating the Google Maps API for real-time location updates."
+        },
+        "stack": "Tech Stack: C++, Arduino, Python, SQL, PHP, Google Cloud Platform (Pub/Sub, GCE), MySQL, Google Maps API, WireShark"
       },
       {
         "title": { "zh": "履歷網站", "en": "Resume Website" },
@@ -161,14 +169,6 @@
           "en": "Developed a fully automated cloud-native system utilizing Docker and AWS to orchestrate web scraping, AI-driven financial news summarization, and audio generation, leveraging n8n workflows for delivery via email."
         },
         "stack": "Tech Stack: Python, Selenium, BeautifulSoup, Requests, AWS, Docker, n8n, Google Gemini API, Azure AI Speech API"
-      },
-      {
-        "title": { "zh": "智慧夜生活導航與活動 LINE Bot", "en": "Smart Nightlife Navigator & Event Companion LINE Bot" },
-        "desc": {
-          "zh": "使用 Docker、Render 和 UptimeRobot 建立穩定的 LINE Bot，整合 Google Maps API 自動探索飲酒場所並主持隨機飲酒遊戲。",
-          "en": "Built a stable LINE Bot using Docker, Render, and UptimeRobot that integrates Google Maps API to automate the discovery of drinking venues and host random drinking games."
-        },
-        "stack": "Tech Stack: Python, Flask, Webhook, Google Maps API, Docker, Render"
       }
     ]
   }
