@@ -57,7 +57,7 @@
                 "Optimized low-level system sequences, including power-on and reset latencies, to improve system responsiveness and meet stringent OEM performance requirements."
               ]
             },
-            "Specialized in ARM Cortex-R based SSD firmware development with expertise in Low-level Drivers and HAL design, covering register-level programming, interrupt handling, memory management, power management, and DMA optimization.",
+            "Specialized in ARM Cortex-R based SSD firmware development with expertise in Low-level Drivers and HAL design, covering register-level programming, interrupt handling, memory management, power management, and DMA.",
             "Proficient in PCIe and NVMe and resolved host-side compatibility issues and link issues across various platforms by using Protocol Analyzer (Viavi, LeCroy).",
             "Designed UEFI/Shell scripts for SoC verification and performed firmware debugging through drive log analysis, code tracing, and the utilization of logic analyzers, JTAG, Keil, GPIO, and UART techniques.",
             "Collaborated cross-functionally and delivered on-site technical support at client locations."
