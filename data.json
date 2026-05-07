@@ -115,7 +115,7 @@
       },
       {
         "title": { "zh": "韌體與嵌入式系統", "en": "Firmware & Embedded System" },
-        "tags": ["ARM Architecture", "Bare-metal Firmware", "Low-level Driver", "Device Driver", "Linux Kernel Driver", "Buildroot", "RTOS", "UART", "I2C", "PCIe", "NVMe", "Make", "QEMU", "Raspberry Pi", "Arduino", "8051"]
+        "tags": ["ARM Architecture", "Bare-metal Firmware", "Low-level Driver", "Device Driver", "Linux Kernel Driver", "Yocto", "Buildroot", "RTOS", "UART", "I2C", "PCIe", "NVMe", "Make", "QEMU", "Raspberry Pi", "Arduino", "8051"]
       },
       {
         "title": { "zh": "除錯與分析工具", "en": "Debugging & Tools" },
@@ -141,10 +141,10 @@
       {
         "title": { "zh": "I2C 設備驅動程式實作", "en": "I2C Device Driver Implementation" },
         "desc": {
-          "zh": "本專案利用 QEMU 模擬器，深度探索 HDC1080 驅動程式在不同硬體架構與軟體層級間的整合技術。在 ARM Cortex-M3 (MPS2-AN385) 平台上，完成 Bare-metal 暫存器級別的 UART 與 I2C 驅動開發，並進一步移植至 FreeRTOS，實作多任務環境下的通訊保護機制。針對具備 ARM Cortex-A7 架構的 ASPEED AST2600 平台，實作 Linux Kernel 驅動程式（Character Device），包含 Device Tree (DTS) 資源配置，並運用 Buildroot 完成從核心編譯、Rootfs 封裝到系統鏡像部署的完整流程。藉由本專案，系統性地了解從 MCU 暫存器控制到 Embedded Linux 的開發過程。",
-          "en": "This project leverages the QEMU emulator to deeply explore the integration of HDC1080 drivers across diverse hardware architectures and software layers. On the ARM Cortex-M3 (MPS2-AN385) platform, I developed bare-metal UART and I2C drivers at the register level and successfully ported them to FreeRTOS, implementing robust communication protection mechanisms for multi-tasking environments. For the ARM Cortex-A7 based ASPEED AST2600 platform, I implemented a Linux Kernel Character Device Driver, configured hardware resources via Device Tree (DTS), and utilized Buildroot to manage the entire workflow—from kernel compilation and Rootfs packaging to system image deployment. Through this project, I have gained a systematic understanding of the development process, ranging from MCU register-level control to Embedded Linux systems."
+          "zh": "本專案利用 QEMU 模擬器以及HDC1080 驅動程式來探索不同硬體架構與軟體層級間的整合技術。，於 ARM Cortex-M3 平台實現 Bare-metal 暫存器級驅動開發（I2C/UART），並移植至 FreeRTOS 實作多任務通訊保護。針對 ARM Cortex-A7 (AST2600) 架構，開發 Linux 核心驅動程式與 DTS 配置，並透過 Buildroot 與 Yocto Project 兩種不同方法完成自動化建構與鏡像部署。本專案系統性呈現了從 MCU 底層控制到工業級 Embedded Linux 的整合開發流程。",
+          "en": "This project utilizes the QEMU emulator and HDC1080 driver to explore integration techniques across various hardware architectures and software layers. It covers Bare-metal register-level driver development (I2C/UART) on the ARM Cortex-M3 platform, with a subsequent migration to FreeRTOS to implement multi-task communication protection. For the ARM Cortex-A7 (AST2600) architecture, the project involves developing a Linux kernel driver, configuring Device Tree (DTS), and performing automated builds and image deployment using both Buildroot and Yocto Project. This project systematically demonstrates the integrated development workflow ranging from low-level MCU control to industrial-grade Embedded Linux systems."
         },
-        "stack": "Tech Stack: Linux Kernel Driver, FreeRTOS, Bare-metal, QEMU, Buildroot, Device Tree, Make, ARM, I2C, UART"
+        "stack": "Tech Stack: Linux Kernel Driver, FreeRTOS, Bare-metal, QEMU, Yocto, Buildroot, Device Tree, Make, ARM, I2C, UART"
       },
       {
         "title": { "zh": "FUSE 使用者空間檔案系統實作", "en": "FUSE-based User-Space File System Implementation" },
