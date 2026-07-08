@@ -71,12 +71,12 @@
           "zh": [
             "主導基於 RTOS 環境之 PCIe 驅動程式早期開發，專為新一代 NPU SoC 進行架構設計。",
             "負責搭建 FPGA 驗證平台與環境，用以進行功能性驗證，加速軟硬體整合初期之除錯。",
-            "規劃軟體架構藍圖，布建未來將驅動程式移植至 Embedded Linux 系統之技術時程與準備。"
+            "計畫未來將驅動程式移植至 Embedded Linux 系統。"
           ],
           "en": [
             "Initiate the development of PCIe drivers on RTOS environments, custom-designed for next-generation NPU SoCs.",
             "Establish FPGA-based verification environments to conduct functional validation and accelerate early-stage hardware/software integration.",
-            "Design the software architecture blueprint with a strategic roadmap to migrate driver capabilities to Embedded Linux in subsequent phases."
+            "Plan to port the driver to an embedded Linux system in the future."
           ]
         }
       }
