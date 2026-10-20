@@ -157,7 +157,7 @@
       {
         "title": { "zh": "I2C 設備驅動程式實作", "en": "I2C Device Driver Implementation" },
         "desc": {
-          "zh": "本專案利用 QEMU 模擬器以及HDC1080 驅動程式來探索不同硬體架構與軟體層級間的整合技術。，於 ARM Cortex-M3 平台實現 Bare-metal 暫存器級驅動開發（I2C/UART），並移植至 FreeRTOS 實作多任務通訊保護。針對 ARM Cortex-A7 (AST2600) 架構，開發 Linux 核心驅動程式與 DTS 配置，並透過 Buildroot 與 Yocto Project 兩種不同方法完成自動化建構與鏡像部署。本專案系統性呈現了從 MCU 底層控制到工業級 Embedded Linux 的整合開發流程。",
+          "zh": "本專案利用 QEMU 模擬器以及HDC1080 驅動程式來探索不同硬體架構與軟體層級間的整合技術。於 ARM Cortex-M3 平台實現 Bare-metal 暫存器級驅動開發（I2C/UART），並移植至 FreeRTOS 實作多任務通訊保護。針對 ARM Cortex-A7 (AST2600) 架構，開發 Linux 核心驅動程式與 DTS 配置，並透過 Buildroot 與 Yocto Project 兩種不同方法完成自動化建構與鏡像部署。本專案系統性呈現了從 MCU 底層控制到工業級 Embedded Linux 的整合開發流程。",
           "en": "This project utilizes the QEMU emulator and HDC1080 driver to explore integration techniques across various hardware architectures and software layers. It covers Bare-metal register-level driver development (I2C/UART) on the ARM Cortex-M3 platform, with a subsequent migration to FreeRTOS to implement multi-task communication protection. For the ARM Cortex-A7 (AST2600) architecture, the project involves developing a Linux kernel driver, configuring Device Tree (DTS), and performing automated builds and image deployment using both Buildroot and Yocto Project. This project systematically demonstrates the integrated development workflow ranging from low-level MCU control to industrial-grade Embedded Linux systems."
         },
         "stack": "Tech Stack: Linux Kernel Driver, FreeRTOS, Bare-metal, QEMU, Yocto, Buildroot, Device Tree, Make, ARM, I2C, UART"
